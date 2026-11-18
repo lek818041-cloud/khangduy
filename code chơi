@@ -1,0 +1,6 @@
+ten_sp = input("Nhập tên sản phẩm: ")
+dai =int(input("Nhập chiều dài: "))
+rong = int(input("Nhập chiều rộng: "))
+dien_tich = dai  * rong
+chu_vi = (dai + rong) * 2
+print(f"{ten_sp} có diện tích {dien_tich} và chu vi {chu_vi}")
